@@ -1,0 +1,52 @@
+body {
+ background-image:url("background-image.jpg");
+}
+
+#logo {
+	margin-top: -8%;
+	margin-left: 12%;
+	position: relative;
+}
+
+h2 {
+color:#00476B;
+font-size:2em;
+font-weight:200;
+margin-bottom:4%;
+margin-left: 5%;
+}
+
+#loginbox {
+margin-top: -19%;
+margin-left: 38%;
+width: 25%;
+padding-top: 13%;
+}
+
+form fieldset input[type="text"], input[type="password"] {
+background-color:#2B3131;
+color:#D5D6D6;
+border: none;
+border-radius:3px;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 100%;
+height: 40px;
+padding: 0px 16px;
+cursor:text;
+width: 280px;
+}
+
+form fieldset input[type="submit"] {
+background-color:#2B3131;
+border: none;
+border-radius: 3px;
+color:#D5D6D6;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 100%;
+height: 30px;
+cursor:pointer;
+padding: 0px 16px;
+width: 100px;
+margin-left: 35%;
+margin-bottom: -2%;
+}

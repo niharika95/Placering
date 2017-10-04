@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Details</title>
+	<link rel="stylesheet" href="Student Details styling.css">
+<script src="abc.js"></script>
+</head>
+
+<body>
+<form method="post" action="" name='myform' onsubmit="return validate();">
+<div id="logo"> <img src="logo.png"/>
+		</div>
+<div id="PI">
+<h2>PERSONAL INFORMATION<hr></h2><br>
+		<h3>Name:</h3>			<input type="text" name="name"><br>
+		<h3>Date of Birth:</h3> 	<input type="datetime" name="dob"><br>
+		<h3>Sex:</h3>&nbsp;&nbsp;&nbsp;  <input type="radio" name="sex" value="male" checked>Male  &nbsp;&nbsp;&nbsp;  <input type="radio" name="sex" value="female">Female <br><br>
+		<h3>Age:</h3> 			<input type="number" name="age"><br>
+		<h3>Address:</h3> 		<textarea name="address" rows="5" cols="40"></textarea><br><br>
+		<h3>Contact number:</h3> <input type="tel" name="contact"><br>
+		<h3>E-mail id:</h3> 		<input type="email" name="email"><br>
+</div>
+<div id="Q">
+		<h2>QUALIFICATIONS</h2><hr><br>
+<h3>		Branch:</h3> <select name="branch">
+		   <option value="COMPS">Computer Engineering</option>
+		   <option value="ELECTRONICS">Electronic Engineering</option>
+		   <option value="CIVIL">Civil Engineering</option>
+		   <option value="INFORMATION TECHNOLOGY">Information Technology</option>
+		   <option value="MECHANICS">Mechanical Engineering</option>
+		   <option value="CHEMICAL">Chemical Engineering</option>
+		   <option value="MECHATRONICS">Mechatronic Engineering</option>
+   			</select> <br><br>
+		<h3>CGPA:</h3> 					<input type="text" name="cgpa"/><br>
+	    <h3>12th Percentage:</h3> 		<input type="text" name="per"/><br>
+	    <h3>Months of Internships:</h3> 	<input type="number" name="intern"/><br>
+	    <h3>Internships:</h3>			<textarea name="internship" rows="5" cols="40"></textarea><br>
+</div>
+<div id="UF">
+		<h2>UPLOAD FILES</h2><hr><br>
+		<h3>12th Gradesheet:</h3>   <input type="file" name="datafile" size="40"><br>
+		<h3>Semester Reports:</h3>  <input type="file" name="datafile2" size="40">
+		<h3>CV:</h3> <input type="file" name="datafile3" size="40"><br>
+                <h3>Certificates(if any):<br>       <input type="file" name="datafile4" size="40"><br><br>
+</div>
+<br>
+<div id="S">
+	<input id="sub" type="submit" value="Submit"/>
+</div>
+<br>
+<br>
+<div class="copy-right">
+		<p>Copyright © 2015 Placering. All rights reserved | Design by <a href="">PLACERING_NMIMS_2015</a></p>
+	</div>
+</form>
+</body>
+</html>
